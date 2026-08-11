@@ -1,0 +1,42 @@
+/* ------------------------------------------------ */
+/* Global Layout */
+/* ------------------------------------------------ */
+
+:root {
+  --primary: #0d6735;        /* Yousra green */
+  --primary-color: #0d6735;
+  --dark-green: #0B6E4F;
+  --brand-color: #0d6735;
+  --btn-primary: #0d6735;
+  --navbar-bg: #ffffff;
+  --text-on-primary: #000000;
+}
+
+.navbar { background-color: var(--navbar-bg) !important; }
+.btn-primary { background-color: var(--primary) !important; border-color: var(--primary) !important; } 
+
+/* Franck Modifications belows August 2026 version 1.0.0  */
+
+.group-levels-container {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+.group-tile-row {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	padding: 6px 15px;
+}
+.group-tile {
+	padding: 10px 16px;
+	border: 1px solid var(--border-color);
+	border-radius: 8px;
+	cursor: pointer;
+	font-weight: 600;
+}
+.group-tile-selected {
+	background: var(--primary-color, #2e7d32);
+	color: #fff;
+	border-color: transparent;
+}
